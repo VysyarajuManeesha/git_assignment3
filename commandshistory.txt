@@ -1,0 +1,55 @@
+  403  mkdir ass3
+  404  ls -al
+  405  cd ass3
+  406  ls -al
+  407  git init
+  408  echo "Writing file in master branch" > main.txt
+  409  ls
+  410  git add .
+  411  git commit -m "1st commit in master"
+  412  git status
+  413  git branch Develop
+  414  git branch
+  415  ls
+  416  git branch f1
+  417  git branch f2
+  418  ls
+  419  git branch
+  420  git checkout Develop
+  421  ls
+  422  echo "Adding file in Develop branch" > develop.txt
+  423  ls
+  424  git add .
+  425  git commit -m "2nd commit - Develop"
+  426  ls
+  427  git checkout f1
+  428  ls
+  429  echo "Adding file in f1 branch" > f1.txt
+  430  ls
+  431  git add .
+  432  git commit -m "3rd commit - f1"
+  433  ls
+  434  git checkout f2
+  435  ls
+  436  echo "Adding file in f2 branch" > f2.txt
+  437  ls
+  438  git add .
+  439  git commit -m "4th commit - f2"
+  440  ls
+  441  git checkout master
+  442  git log
+  443  git remote -v
+  444  git remote add origin https://github.com/VysyarajuManeesha/git_assignment3.git
+  445  git remote -v
+  446  git branch
+  447  git status
+  448  git push origin
+  449  git push origin master
+  450  git push origin Develop
+  451  git push origin f1
+  452  git push origin f2
+  453  git status
+  454  git branch -d f2
+  455  git branch -D f2
+  456  git branch
+  457  ls
